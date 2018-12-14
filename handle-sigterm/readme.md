@@ -1,6 +1,6 @@
 <!-- vim: set spell : -->
 
-# Stop Script Quickly in Docker
+# Handle docker stop properly for containers that start with shell script
 
 ## Context
 
@@ -263,3 +263,6 @@ Now, `docker stop` should be quick as usual.
 
 As usual, we learn many thing as we keep try to improve what we have. I've learn
 some new things about Unix shell and I hope that this post also help you so.
+
+Here's is my [current implementation](https://github.com/letientai299/gollum-reload/blob/7bbefec2b3c70a31441c941fb0481f156732aa9e/docker/run.sh)
+for `run.sh` in gollum-reload, to serve as an example of a real project.
